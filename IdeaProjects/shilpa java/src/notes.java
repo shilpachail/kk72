@@ -1,0 +1,4 @@
+ // jab hum int[] arr; likhte hai ta bumara stack mai space ban jata hai , jo ki non primitive hai wahi agra primitive hpta goh stack mai hee value store hoti but array ke kaise mai heap ki jagha store hoti hai memory
+//.deep copy mtlb heap mai new memory alocate hota hai and shallow copy  mtlb no new memory allocated in  heap just sta ck maai uss new array ko jagha mill jati hai , jab hum usse copy karte hhai
+// arraylist and stack work is same we can dynamically icrease or decrese the size but there is in arraylist we can add or remove or get from anywhere but in stack we follow lifo
+ // some function of stack is push, pop , peekk, size
