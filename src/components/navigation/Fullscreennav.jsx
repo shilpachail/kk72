@@ -65,7 +65,7 @@ const Fullscreennav = () => {
         </div>
       </div>
 
-      <div ref={fullnavlinkref} className="relative">
+      <div ref={fullnavlinkref} className="relative h-screen flex flex-col">
         <div className="navlink flex w-full justify-between lg:p-5 p-2 items-start">
           <div className="p-5">
             <div className="w-36">
@@ -94,8 +94,8 @@ const Fullscreennav = () => {
           </div>
         </div>
 
-        <div className="py-0.25">
-          <div className="link origin-top relative border-y border-white overflow-hidden">
+       <div className="flex-1 flex flex-col justify-center items-center lg:justify-start lg:items-stretch overflow-y-auto gap-2 pt-[20vh] lg:pt-0 ">
+          <div className="link origin-top relative border-t border-b border-white overflow-hidden w-full">
             <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
               PROJECTS
             </h1>
@@ -139,7 +139,7 @@ const Fullscreennav = () => {
             </div>
           </div>
 
-            <div className="link origin-top relative border-y border-white overflow-hidden">
+            <div className="link origin-top relative  border-b border-white overflow-hidden w-full">
             <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
               AGENCE
             </h1>
@@ -183,7 +183,7 @@ const Fullscreennav = () => {
             </div>
           </div>
 
-           <div className="link origin-top relative border-y border-white overflow-hidden">
+          <div className="link origin-top relative  border-b border-white overflow-hidden w-full">
             <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
               CONTACT
             </h1>
@@ -227,7 +227,7 @@ const Fullscreennav = () => {
             </div>
           </div>
 
-           <div className="link origin-top relative border-y border-white overflow-hidden">
+           <div className="link origin-top relative border-b border-white overflow-hidden w-full">
             <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
               BLOGS
             </h1>
