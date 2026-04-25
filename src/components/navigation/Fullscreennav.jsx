@@ -94,7 +94,7 @@ const Fullscreennav = () => {
           </div>
         </div>
 
-       <div className="flex-1 flex flex-col justify-center items-center lg:justify-start lg:items-stretch overflow-y-auto gap-2 pt-[20vh] lg:pt-0 ">
+       <div className="flex-1 flex flex-col justify-center items-center lg:justify-start lg:items-stretch overflow-y-auto gap-2 -mt-20 lg:mt-0">
           <div className="link origin-top relative border-t border-b border-white overflow-hidden w-full">
             <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
               PROJECTS
