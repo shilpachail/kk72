@@ -1,0 +1,107 @@
+# Project Report
+
+## Interactive  Website
+
+
+
+## 1. Introduction
+
+This project is an interactive  website developed using React. The application is designed to provide a smooth and engaging user experience through animations, transitions, and responsive design. It demonstrates modern frontend development practices including component-based architecture, routing, and animation handling.
+
+
+
+## 2. Objective
+
+The objectives of this project are:
+
+* To build an interactive frontend application using React
+* To implement animation-based UI using GSAP
+* To design responsive layouts using Tailwind CSS
+* To create smooth navigation and page transitions
+
+
+
+## 3. Technologies Used
+
+* React.js for building UI components
+* Tailwind CSS for styling
+* GSAP for animations
+* React Router DOM for navigation
+* Context API for state management
+
+
+
+## 4. Application Flow
+
+The application follows a structured flow:
+
+1. The user lands on the Home page.
+2. A stair animation is displayed during page load or navigation.
+3. After the animation, the page content becomes visible.
+4. The user can open the fullscreen navigation menu.
+5. The menu appears with animation and displays navigation links.
+6. When the user interacts with links, hover animations are triggered.
+7. Clicking on a link navigates to a new page and triggers transition animation.
+8. Different pages include:
+
+   * About (Agence): scroll-based image transitions
+   * services  (Projects): animated content on scroll
+   * Contact: displays contact details
+9. The user can close the navigation menu using a close button.
+
+
+
+## 5. Implementation Details
+
+
+### 5.1 Routing System
+
+React Router is used to manage navigation between multiple pages such as Home, Projects, Agence, and Contact.
+
+
+### 5.2 Page Transition Animation
+
+The `Stairs` component implements page transitions using GSAP. It uses timeline animations to create a smooth visual effect when switching between routes.
+
+
+### 5.3 Navigation System
+
+The application includes a fullscreen navigation menu that is controlled using Context API. It opens and closes with GSAP animations and provides navigation across pages.
+
+
+### 5.4 Scroll-Based Animations
+
+Scroll animations are implemented in:
+
+* About page: image changes based on scroll
+* Projects page: animated content
+
+
+### 5.5 State Management
+
+Context API is used to manage the navigation state, allowing different components to communicate efficiently.
+
+
+### 5.6 Styling
+
+Tailwind CSS is used for styling. It ensures responsiveness and consistency across different screen sizes.
+
+
+
+## 6. Features
+
+* Animated page transitions
+* Fullscreen navigation menu
+* Interactive hover effects
+* Scroll-based animations
+* Responsive design
+* Modular component structure
+
+
+
+
+
+## 7. Conclusion
+
+The project demonstrates the implementation of modern frontend development concepts using React. It highlights the use of animations and routing to create an engaging user experience. The project provides practical experience in building scalable and interactive web applications.
+

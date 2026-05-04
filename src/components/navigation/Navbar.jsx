@@ -30,10 +30,11 @@ import { NavbarColorContext, NavbarContext } from '../../context/Navcontext'
 
                 
                      <div ref={navgreenref} className='bg-[#D3FD50] transition-all absolute top-0 h-0 w-full'></div>
-                         <div className=' relative h-full lg:px-12 px-8 flex flex-col  justify-center items-end lg:gap-2 gap-0.5'>
-                          <div className="lg:w-18 w-12 h-0.5 bg-white"></div>
-                          <div className="lg:w-10 w-6 h-0.5 bg-white"></div>
-                         </div>
+                        <div className='relative h-full lg:px-12 px-8 flex flex-col justify-center items-end lg:gap-2 gap-1'>
+  <div className="lg:w-18 w-12 h-0.5 bg-white"></div>
+  <div className="lg:w-14 w-8 h-0.5 bg-white"></div>
+  <div className="lg:w-10 w-6 h-0.5 bg-white"></div>
+</div>
                    </div>
                     </div>
       )

@@ -1,8 +1,9 @@
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import { useRef } from 'react'
+import { useRef, useEffect } from 'react'
 import { ScrollTrigger } from 'gsap/all'
 import React from 'react'
+
 
 const Agence = () => {
 
@@ -21,6 +22,13 @@ const Agence = () => {
     'https://k72.ca/images/teamMembers/MEGGIE_480X640_2.jpg?w=480&h=640&fit=crop&s=3604b19f8fc7b40f517954147698d847',
     'https://k72.ca/images/teamMembers/joel_480X640_3.jpg?w=480&h=640&fit=crop&s=1cadbf143b3aa916b1b414464acbb4d6'
   ]
+  useEffect(() => {
+  window.scrollTo(0, 0);
+
+  setTimeout(() => {
+    ScrollTrigger.refresh();
+  }, 100);
+}, []);
 
   useGSAP(function () {
     
